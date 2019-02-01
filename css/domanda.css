@@ -62,10 +62,7 @@ body{
 	font-family: 'AvenirLTStdHeavy', sans-serif;
 	font-size: 21px;
 	line-height: 85px;
-	position: relative;
-	top: 40%;
-    float:right;
-    transform: translateX(-50%);
+	
 }
 
 .ui-btn:active{
@@ -73,16 +70,16 @@ body{
 }
 
 .two-btn{
-	position: relative;
+	position: absolute;
 	top: 40%;
-    float:left;
+    left:50%;
     transform: translateX(-50%);
 }
 
 .three-btn{
-	position: relative;
+	position: absolute;
 	top: 40%;
-    float:right;
+    left:50%;
     transform: translateX(-50%);
 }
 
